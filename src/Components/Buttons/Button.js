@@ -1,5 +1,5 @@
 import React from "react";
-import './Button.css'
+import './Button.css';
 
 const Button = (props) => {
     return <button onClick={props.callApi}>
@@ -7,5 +7,4 @@ const Button = (props) => {
     </button>;
 }
 
-// Export Button Component
 export default Button;
